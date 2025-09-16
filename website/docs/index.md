@@ -1,3 +1,30 @@
+---
+title: godaddy
+hide_title: false
+hide_table_of_contents: false
+keywords:
+  - godaddy
+  - stackql
+  - infrastructure-as-code
+  - configuration-as-data
+  - cloud inventory
+description: Query, deploy and manage GoDaddy resources using SQL
+custom_edit_url: null
+image: /img/providers/godaddy/stackql-godaddy-provider-featured-image.png
+id: 'provider-intro'
+---
+
+import CopyableCode from '@site/src/components/CopyableCode/CopyableCode';
+
+Domain registration and web hosting services.
+
+:::info[Provider Summary] 
+
+total services: __9__  
+total resources: __29__  
+
+:::
+
 See also:   
 [[` SHOW `]](https://stackql.io/docs/language-spec/show) [[` DESCRIBE `]](https://stackql.io/docs/language-spec/describe)  [[` REGISTRY `]](https://stackql.io/docs/language-spec/registry)
 * * * 
@@ -40,3 +67,20 @@ stackql.exe shell --auth=$Auth
 
 ```
 </details>
+
+## Services
+<div class="row">
+<div class="providerDocColumn">
+<a href="/services/abuse/">abuse</a><br />
+<a href="/services/aftermarket/">aftermarket</a><br />
+<a href="/services/agreements/">agreements</a><br />
+<a href="/services/certificates/">certificates</a><br />
+<a href="/services/countries/">countries</a><br />
+</div>
+<div class="providerDocColumn">
+<a href="/services/domains/">domains</a><br />
+<a href="/services/orders/">orders</a><br />
+<a href="/services/shoppers/">shoppers</a><br />
+<a href="/services/subscriptions/">subscriptions</a><br />
+</div>
+</div>
