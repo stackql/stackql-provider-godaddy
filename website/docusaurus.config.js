@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // Provider configuration - change these for different providers
 const providerName = "godaddy";
-const providerTitle = "GoDaddy Provider";
+const providerTitle = "GoDaddy";
 
 const providerDropDownListItems = [
   {
